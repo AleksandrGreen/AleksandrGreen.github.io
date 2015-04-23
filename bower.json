@@ -1,0 +1,28 @@
+{
+    "name": "aleksandrgreen.gihub.io",
+    "version": "0.0.0",
+    "homepage": "https://github.com/AleksandrGreen/AleksandrGreen.github.io",
+    "authors": [
+        "green <aokunev@bump.ru>"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "animate.css": "~3.2.6",
+        "bootstrap": "~3.3.4"
+    },
+
+    "exportsOverride": {
+        "bootstrap": {
+            "js": "dist/js/bootstrap.js",
+            "fonts": "fonts/*",
+            "css": "dist/css/bootstrap.css*"
+        }
+    }
+}
